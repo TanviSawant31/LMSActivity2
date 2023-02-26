@@ -1,0 +1,212 @@
+/* common for HTML */
+html{
+    font-family: cursive;
+}
+body{
+    background-image: url(bdimage.jpg);
+    background-repeat: repeat;
+}
+
+h2 {
+    font-size: 30px;
+    color: maroon;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+/* background for body except header */
+.background { background-color: floralwhite;
+}
+
+
+/* logo and header section */
+header img {
+    float: left;
+    margin: 20px 20px;
+    }
+
+.heading {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: inherit;
+    color: white;
+    }
+header a{
+    text-decoration: none;
+}
+
+/* navigation */
+ul {list-style-type: none;}
+
+ul a { 
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding-left: 40px;
+}
+
+.nav{
+    padding: 40px;
+    background-color: saddlebrown;
+    
+}
+
+/* banner image section */
+.homeimg {
+    width: 100%;
+    height: auto;
+}
+
+.bannertext {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* middle section */
+.circle{
+    height: 300px;
+    width: 300px;
+    float: left;
+    padding: 60px; 
+    text-align: center;   
+}
+
+.linktext{
+    text-decoration: none;
+    color: maroon;
+    font-size: 30px;
+}
+
+.circleimg { 
+    border-radius: 100%;
+}
+
+
+/* article section */
+.articlesection{
+    clear: both;
+    text-align: center;
+    padding:20px;
+    
+}
+
+.homearticleimg {
+    height: 500px;
+    width: 800px;
+    border: 6px solid darkgreen;
+}
+
+/* footer section */
+footer{
+    background-color: darkgreen;
+    color: floralwhite;
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding-left: 80px;
+}
+
+td a { 
+    color:white;
+    text-decoration: none; 
+}
+
+footer li a { 
+    color:white;
+    text-decoration: none; 
+}
+
+
+footer div p a { 
+    color:hotpink; 
+}
+/* End of index.html, header and footer section */
+
+
+/* CSS for About page */
+/* text allignment */
+.headingtext {
+    text-align: center;  
+    padding: 20px;
+}
+
+/* End of about page */
+
+
+/* CSS for blog page */
+/* text allignment */
+.blogtext{
+    padding:20px;
+}
+
+.blogimg {
+    height: 300px;
+    width: 300px;
+    padding-right: 40px;
+}
+
+.card {
+   background-color: white;
+    padding: 20px;
+    width: auto;
+    height: 300px;
+   
+}
+
+.column {   
+  float: left;
+}
+
+.clearfloat {   
+  clear: both;
+
+}
+
+/* End of blog page */
+
+
+/* CSS for article pages */
+/* text allignment */
+.articletext {
+    text-align: center;  
+    padding: 20px;
+}
+
+.articleimg{ height: 600px;
+    width: 900px;
+    
+}
+
+/* End of article page */
+
+
+/* CSS for photo gallery */
+/* text allignment */
+
+.photo{
+    float: left;
+    
+    
+}
+.galleryimages {
+    padding-bottom:20px;
+    margin-left: 80px;
+    align-items: center;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+/* End of photogallery page */
+
+
+/*END OF CSS FILE */
